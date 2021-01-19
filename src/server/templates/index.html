@@ -1,0 +1,53 @@
+{% extends "base.html" %}
+{% block content %}
+<h1 class="mt-3">Immune Exposure Model</h1>
+
+<p class="lead">
+  An immune exposure is the process by which components of the immune system
+  first encounter a potential trigger.
+  This model applies
+  <a href="https://www.go-fair.org/fair-principles/">FAIR principles</a>
+  to the description of the events, materials, diseases, and specimens
+  relevant to immune response,
+  facilitating accurate capture and retrieval of immune exposure records
+  for scientific studies and databases.
+</p>
+
+<p>On this site you fill find:</p>
+<ul>
+  <li>controlled <a href="/terminology/">terminology</a> to capture:
+    <ul>
+      <li>subject ID</li>
+      <li>event type</li>
+      <li>start and end time</li>
+      <li>exposure material type</li>
+      <li>disease type</li>
+      <li>disease stage</li>
+      <li>specimen type</li>
+      <li>specimen ID</li>
+    </ul>
+  </li>
+  <li><a href="/instructions">instructions</a> for using the model</li>
+  <li><a href="/examples">examples</a> of the model</li>
+  <li>convenient Excel and CSV templates</li>
+  <li>web-based <a href="/validator">validator</a> for filled templates</li>
+</ul>
+
+<p>
+  This prototype builds on earlier work in
+  <a href="https://doi.org/10.1093/database/baaa016">A structured model for immune exposures</a>
+  which is used by
+  <a href="https://immport.org">ImmPort</a>
+  for its "Immune Exposure" template
+  (see <a href="https://www.immport.org/resources/dataTemplates">ImmPort templates</a>).
+  The new version supports a time-series of relevant life events
+  and adds support for specimens.
+</p>
+
+<ul>
+  <li>Read the <a href="/instruction">instructions</a> for using the immune exposure model</li>
+  <li>Look at <a href="/examples">examples</a> of the immune exposure model</li>
+  <li>Browse the <a href="/terminology/">terminology</a> used in the immune exposure model</li>
+  <li>Fill and <a href="/validator">validate</a> an immune exposure template</li>
+</ul>
+{% endblock %}

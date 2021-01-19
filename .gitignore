@@ -1,0 +1,5 @@
+src/ontology/__pycache__
+build/
+bin/
+.venv/
+settings.env

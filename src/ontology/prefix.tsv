@@ -1,0 +1,16 @@
+Prefix	Base
+rdf	http://www.w3.org/1999/02/22-rdf-syntax-ns#
+rdfs	http://www.w3.org/2000/01/rdf-schema#
+xsd	http://www.w3.org/2001/XMLSchema#
+owl	http://www.w3.org/2002/07/owl#
+BFO	http://purl.obolibrary.org/obo/BFO_
+DOID	http://purl.obolibrary.org/obo/DOID_
+IAO	http://purl.obolibrary.org/obo/IAO_
+IDO	http://purl.obolibrary.org/obo/IDO_
+OBI	http://purl.obolibrary.org/obo/OBI_
+OGMS	http://purl.obolibrary.org/obo/OGMS_
+NCBITaxon	http://purl.obolibrary.org/obo/NCBITaxon_
+VO	http://purl.obolibrary.org/obo/VO_
+XCO	http://purl.obolibrary.org/obo/XCO_
+ONTIE	https://ontology.iedb.org/ontology/
+IE	https://immune-exposure.ontodev.com/

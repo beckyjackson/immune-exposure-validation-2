@@ -1,0 +1,9 @@
+Subject ID,Event Type,Start Time,End Time,Exposure Material Type,Disease Type,Disease Stage,Specimen Type,Specimen ID
+1,birth,1950,1950
+1,vaccination,1960,1960,"DTwP vaccine (diphtheria, tetanus and whole cell pertussis vaccine)"
+1,documented exposure without evidence for disease,1970,1972,Bordetella pertussis,,,,
+1,study enrollment,day -30,day -30,,,,,
+1,specimen collection,day -30,day -30,,,,blood specimen,specimen:1-1
+1,vaccination,day 1,day 1,DTaP vaccine (Diphtheria-Tetanus-Pertussis vaccine),,,,
+1,specimen collection,day 1,day 1,,,,blood specimen,specimen:1-1
+1,specimen collection,day 20,day 20,,,,blood specimen,specimen:1-2

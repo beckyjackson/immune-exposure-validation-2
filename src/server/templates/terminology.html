@@ -1,0 +1,47 @@
+{% extends "base.html" %}
+
+{% block head %}
+<style>
+#annotations {
+ padding-left: 1em;
+ list-style-type: none !important;
+}
+#annotations ul {
+ padding-left: 3em;
+ list-style-type: circle !important;
+}
+#annotations ul ul {
+ padding-left: 2em;
+ list-style-type: none !important;
+}
+.hierarchy {
+ padding-left: 0em;
+ list-style-type: none !important;
+}
+.hierarchy ul {
+ padding-left: 1em;
+ list-style-type: none !important;
+}
+.hierarchy ul.multiple-children > li > ul {
+ border-left: 1px dotted #ddd;
+}
+.hierarchy .children {
+ border-left: none;
+ margin-left: 2em;
+ text-indent: -1em;
+}
+.hierarchy .children li::before {
+ content: "2";
+ color: #ddd;
+ display: inline-block;
+ width: 0em;
+ margin-left: -1em;
+}
+</style>
+{% endblock %}
+
+{% block content %}
+
+{{ content|safe }}
+
+{% endblock %}

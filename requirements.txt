@@ -1,0 +1,5 @@
+Flask
+xlsx2csv
+jsonschema
+git+https://github.com/ontodev/gizmos.git
+git+https://github.com/ontodev/valve.py.git
